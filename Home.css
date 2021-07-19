@@ -365,5 +365,9 @@ transition: all 0.5s ease-in-out;
  marquee{
    background-color: #272727;
    font-size: 15px;
-   
- }
+}
+         @media only screen and (min-width: 1024px) { img {
+         width:20%;
+         height: auto;
+      }
+    }
